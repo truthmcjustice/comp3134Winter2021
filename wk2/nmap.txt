@@ -1,0 +1,65 @@
+1000 TCP ports
+````````````````
+nmap www.georgebrown.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 20:32 UTC
+Nmap scan report for www.georgebrown.com (208.91.197.27)
+Host is up (0.041s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.55 seconds
+
+
+A single Port
+`````````````
+nmap 1020 www.snopes.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 20:40 UTC
+Nmap scan report for www.snopes.com (99.86.35.127)
+Host is up (0.054s latency).
+Other addresses for www.snopes.com (not scanned): 99.86.35.78 99.86.35.4 99.86.35.72
+rDNS record for 99.86.35.127: server-99-86-35-127.sea19.r.cloudfront.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 2 IP addresses (1 host up) scanned in 18.01 seconds
+
+
+A range of ports
+````````````````
+nmap -p 80-1010 www.reddit.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 20:37 UTC
+Nmap scan report for www.reddit.com (151.101.1.140)
+Host is up (0.00083s latency).
+Other addresses for www.reddit.com (not scanned): 151.101.65.140 151.101.129.140 151.101.193.140
+Not shown: 929 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.31 seconds
+
+
+
+100 most common ports (Fast)
+````````````````````````````
+nmap -F www.instagram.com
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-18 20:39 UTC
+Nmap scan report for www.instagram.com (31.13.80.174)
+Host is up (0.00090s latency).
+Other addresses for www.instagram.com (not scanned): 2a03:2880:f20e:e5:face:b00c:0:4420
+rDNS record for 31.13.80.174: instagram-p42-shv-01-yyz1.fbcdn.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 13.08 seconds

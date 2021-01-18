@@ -1,0 +1,32 @@
+#1
+S. No.	Domain Name		IP Address
+1	www.humblebundle.com	hs.googlehosted.com./74.125.195.121
+
+#2
+S. No.	Domain Name	IP Address
+1	www.snopes.com	nopes.com./99.86.35.4
+2	www.snopes.com	nopes.com./99.86.35.127
+3	www.snopes.com	nopes.com./99.86.35.72
+4	www.snopes.com	nopes.com./99.86.35.78
+
+#3
+S. No.	Domain Name		IP Address
+1	www.linkedin.com	-0005.l-msedge.net./13.107.42.14
+
+
+#4
+S. No.	Domain Name	IP Address
+1	www.tiktok.com	2047.r.akamai.net./23.213.175.162
+2	www.tiktok.com	2047.r.akamai.net./23.213.175.169
+3	www.tiktok.com	2047.r.akamai.net./23.213.175.155
+4	www.tiktok.com	2047.r.akamai.net./23.213.175.163
+5	www.tiktok.com	2047.r.akamai.net./23.213.175.153
+6	www.tiktok.com	2047.r.akamai.net./23.213.175.160
+7	www.tiktok.com	2047.r.akamai.net./23.213.175.152
+8	www.tiktok.com	2047.r.akamai.net./23.213.175.168
+9	www.tiktok.com	2047.r.akamai.net./23.213.175.154
+
+
+#5
+S. No.	Domain Name		IP Address
+1	www.gamesworkshop.com	ww.gamesworkshop.com./64.111.105.4
