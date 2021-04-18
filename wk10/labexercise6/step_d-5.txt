@@ -1,0 +1,7 @@
+LAB EXERCISE 6
+JUN YAN GAN (101197834)
+
+
+There is no issue in this page but the underlying issue is that with this query, you are capable
+of seeing sensitive informations such as how many directories there are leading to the html
+folder. Anyone can check if there are any infos outside of the html root folder.

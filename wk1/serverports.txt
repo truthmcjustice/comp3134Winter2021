@@ -1,0 +1,65 @@
+1) What is the definition of server port?
+
+The answer is:
+A server port is a number that identifies a specific process to which an
+internet or other network message is to be forwarded when it arrives at a
+server.
+
+Source- 
+https://searchnetworking.techtarget.com/definition/port-number#:~:
+text=A%20port%20number%20is%20a,appended%20to%20a%20message%20unit.
+
+
+
+2) What is server port range?
+
+The answer is:
+A server port range are port numbers reserved for the access to a server port.
+Ex: Port numbers can run from 0-65353. Port numbers from 0-1023 are reserved for
+commo TCP/IP applications.
+
+Source- 
+https://www.sciencedirect.com/topics/computer-science/registered-port#:~:
+text=Port%20numbers%20can%20run%20from,are%20called%20well%2Dknown%20ports.
+&text=The%20well%2Dknown%20port%20number,be%20listening%20for%20client%20
+requests.
+
+
+
+3) How many bits does number above represent? (Range)
+16 bits
+
+
+
+4) State 10 common server ports
+
+The answer is: 
+SMTP (Simple Mail Transfer Protocol) - 25
+HTTP (Hypertext Transfer Protocol) - 80
+HTTPS - 443
+FTP (File Transfer Protocol) - 20, 21
+TELNET - 23
+IMAP (Internet Message Access Protocol) - 143
+RDP (Remoted Desktop Protocol) - 3389
+SSH (Secure Shell) - 22
+DNS (Domain Name System) - 53
+DHCP (Dynamic Host Configuration Protocol) - 67, 68
+
+Source-
+https://www.examcollection.com/certification-training/network-plus-overview-of-
+common-tcp-and-udp-default-ports.html
+
+
+_______________________________________________
+Explanation(s)
+_______________________________________________
+bits		5		4		3		2		1
+max vals	32		16		8		4		2
+
+
+
+2 ^ N 
+
+Explanation: 2 to the power of 5, will equal to the max value and the range of accessible numbers within a port. Bits equalling to N.
+Example: 2 ^ 5 = 32 (2 x 2 x 2 x 2 x 2), 2 ^ 4 = 16... and so on
+

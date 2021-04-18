@@ -1,0 +1,5 @@
+LAB EXERCISE 6
+JUN YAN GAN (101197834)
+
+
+I changed the HTML comments (<!-- -->) to PHP comment blocks (//)

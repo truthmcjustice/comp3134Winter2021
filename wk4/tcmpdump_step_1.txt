@@ -1,0 +1,111 @@
+Week 4 - Jun Yan Gan (101197834)
+
+
+root@comp3134-junyangan:~# tcpdump -i eth0
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:14:18.262036 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 344675166:344675274, ack 2488447494, win 501, length 108
+21:14:18.262266 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 108:144, ack 1, win 501, length 36
+21:14:18.262413 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 144:252, ack 1, win 501, length 108
+21:14:18.262549 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 252:288, ack 1, win 501, length 36
+21:14:18.263536 IP 138.197.151.44.55239 > dns.google.domain: 17940+ PTR? 121.189.19.204.in-addr.arpa. (45)
+21:14:18.271033 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 288, win 511, length 0
+21:14:18.276466 IP dns.google.domain > 138.197.151.44.55239: 17940 1/0/0 PTR dsl-204-19-189-121.cooptel.qc.ca. (91)
+21:14:18.276979 IP 138.197.151.44.42820 > dns.google.domain: 19747+ PTR? 44.151.197.138.in-addr.arpa. (45)
+21:14:18.284880 IP dns.google.domain > 138.197.151.44.42820: 19747 NXDomain 0/1/0 (112)
+21:14:18.285261 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 288:476, ack 1, win 501, length 188
+21:14:18.285399 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 476:512, ack 1, win 501, length 36
+21:14:18.285552 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 512:676, ack 1, win 501, length 164
+21:14:18.285662 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 676:712, ack 1, win 501, length 36
+21:14:18.285798 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 712:884, ack 1, win 501, length 172
+21:14:18.285906 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 884:920, ack 1, win 501, length 36
+21:14:18.286027 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 920:1084, ack 1, win 501, length 164
+21:14:18.286195 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 1084:1120, ack 1, win 501, length 36
+21:14:18.286439 IP 138.197.151.44.45619 > dns.google.domain: 38994+ PTR? 8.8.8.8.in-addr.arpa. (38)
+21:14:18.287403 IP dns.google.domain > 138.197.151.44.45619: 38994 1/0/0 PTR dns.google. (62)
+21:14:18.287724 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 1120:1260, ack 1, win 501, length 140
+21:14:18.287833 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 1260:1296, ack 1, win 501, length 36
+21:14:18.294152 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 712, win 510, length 0
+21:14:18.294221 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 1296:4016, ack 1, win 501, length 2720
+21:14:18.294294 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 4016:4416, ack 1, win 501, length 400
+21:14:18.294485 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 4416:4572, ack 1, win 501, length 156
+21:14:18.294638 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 1120, win 515, length 0
+21:14:18.294655 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 4572:4608, ack 1, win 501, length 36
+21:14:18.294786 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 4608:4780, ack 1, win 501, length 172
+21:14:18.294903 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 4780:4816, ack 1, win 501, length 36
+21:14:18.295092 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 4816:4988, ack 1, win 501, length 172
+21:14:18.295232 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 4988:5024, ack 1, win 501, length 36
+21:14:18.295399 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5024:5196, ack 1, win 501, length 172
+21:14:18.295533 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5196:5232, ack 1, win 501, length 36
+21:14:18.295656 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5232:5388, ack 1, win 501, length 156
+21:14:18.295761 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5388:5424, ack 1, win 501, length 36
+21:14:18.295928 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5424:5596, ack 1, win 501, length 172
+21:14:18.296073 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5596:5632, ack 1, win 501, length 36
+21:14:18.296237 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5632:5804, ack 1, win 501, length 172
+21:14:18.296439 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 1296, win 514, length 0
+21:14:18.296463 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 5804:6048, ack 1, win 501, length 244
+21:14:18.296576 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 6048:6220, ack 1, win 501, length 172
+21:14:18.296660 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 6220:6256, ack 1, win 501, length 36
+21:14:18.296854 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 6256:6428, ack 1, win 501, length 172
+21:14:18.303324 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 4416, win 515, length 0
+21:14:18.303392 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 6428:8944, ack 1, win 501, length 2516
+21:14:18.303577 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 8944:9100, ack 1, win 501, length 156
+21:14:18.303685 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9100:9136, ack 1, win 501, length 36
+21:14:18.303826 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 5232, win 512, length 0
+21:14:18.303895 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9136:9308, ack 1, win 501, length 172
+21:14:18.303984 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9308:9344, ack 1, win 501, length 36
+21:14:18.304094 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9344:9516, ack 1, win 501, length 172
+21:14:18.304179 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9516:9552, ack 1, win 501, length 36
+21:14:18.304322 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9552:9724, ack 1, win 501, length 172
+21:14:18.304402 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 5632, win 510, length 0
+21:14:18.304534 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9724:9760, ack 1, win 501, length 36
+21:14:18.304763 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9760:9916, ack 1, win 501, length 156
+21:14:18.304981 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 6256, win 515, length 0
+21:14:18.305155 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 9916:10360, ack 1, win 501, length 444
+21:14:18.305453 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 10360:10668, ack 1, win 501, length 308
+21:14:18.305616 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 6428, win 514, length 0
+21:14:18.305854 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 10668:11216, ack 1, win 501, length 548
+21:14:18.306198 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 11216:11780, ack 1, win 501, length 564
+21:14:18.306416 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 11780:11960, ack 1, win 501, length 180
+21:14:18.306669 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 11960:12132, ack 1, win 501, length 172
+21:14:18.306903 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 12132:12304, ack 1, win 501, length 172
+21:14:18.307051 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 12304:12476, ack 1, win 501, length 172
+21:14:18.307260 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 12476:12648, ack 1, win 501, length 172
+21:14:18.307483 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 12648:12820, ack 1, win 501, length 172
+21:14:18.307836 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 12820:12992, ack 1, win 501, length 172
+21:14:18.308081 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 12992:13164, ack 1, win 501, length 172
+21:14:18.308219 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 13164:13336, ack 1, win 501, length 172
+21:14:18.308349 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 13336:13508, ack 1, win 501, length 172
+21:14:18.308473 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 13508:13680, ack 1, win 501, length 172
+21:14:18.308599 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 13680:13852, ack 1, win 501, length 172
+21:14:18.308779 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 13852:14024, ack 1, win 501, length 172
+21:14:18.308944 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 14024:14196, ack 1, win 501, length 172
+21:14:18.309093 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 14196:14368, ack 1, win 501, length 172
+21:14:18.309257 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 14368:14540, ack 1, win 501, length 172
+21:14:18.309411 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 14540:14712, ack 1, win 501, length 172
+21:14:18.309571 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 14712:14884, ack 1, win 501, length 172
+21:14:18.309727 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 14884:15056, ack 1, win 501, length 172
+21:14:18.309887 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 15056:15228, ack 1, win 501, length 172
+21:14:18.310069 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 15228:15400, ack 1, win 501, length 172
+21:14:18.310225 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 15400:15572, ack 1, win 501, length 172
+21:14:18.310379 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 15572:15744, ack 1, win 501, length 172
+21:14:18.310523 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 15744:15916, ack 1, win 501, length 172
+21:14:18.310678 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 15916:16088, ack 1, win 501, length 172
+21:14:18.312524 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 9308, win 515, length 0
+21:14:18.312576 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 16088:16260, ack 1, win 501, length 172
+21:14:18.312888 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 16260:16552, ack 1, win 501, length 292
+21:14:18.313084 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 9760, win 513, length 0
+21:14:18.313110 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 16552:16724, ack 1, win 501, length 172
+21:14:18.313620 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 16724:17016, ack 1, win 501, length 292
+21:14:18.313884 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 17016:17188, ack 1, win 501, length 172
+21:14:18.314109 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 10668, win 515, length 0
+21:14:18.314144 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 17188:17360, ack 1, win 501, length 172
+21:14:18.314354 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 17360:17652, ack 1, win 501, length 292
+21:14:18.314503 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 17652:17824, ack 1, win 501, length 172
+21:14:18.314651 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 17824:17996, ack 1, win 501, length 172
+21:14:18.314851 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 11780, win 510, length 0
+21:14:18.314999 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 17996:18288, ack 1, win 501, length 292
+21:14:18.315153 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 18288:18460, ack 1, win 501, length 172
+21:14:18.315382 IP 138.197.151.44.ssh > dsl-204-19-189-121.cooptel.qc.ca.60376: Flags [P.], seq 18460:18632, ack 1, win 501, length 172
+21:14:18.315500 IP dsl-204-19-189-121.cooptel.qc.ca.60376 > 138.197.151.44.ssh: Flags [.], ack 12304, win 515, length 0

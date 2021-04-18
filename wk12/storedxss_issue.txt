@@ -1,0 +1,4 @@
+The issue with this is that a hacker can put another link in a file where a user can access, where
+it will redirect to another page that is not originally that one. It is a security issue, and
+user will not know. The hacker can make the page look identical to the original one
+and put username and password forms to take informations that way.

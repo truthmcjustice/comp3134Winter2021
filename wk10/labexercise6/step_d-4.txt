@@ -1,0 +1,7 @@
+LAB EXERCISE 6
+JUN YAN GAN (101197834)
+
+
+There is no issue in this page but the underlying issue is that with this query, you are capable
+of seeing sensitive informations such as directories within the web application. This can lead to 
+security breaches in a web app if someone is trying to look for something specific by querying.

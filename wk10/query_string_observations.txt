@@ -1,0 +1,7 @@
+LAB EXERCISE 7
+JUN YAN GAN (101197834)
+
+1) When I type a word, a drop down list of words pop up that relate or match.
+2) When I type a word after the /browse/ in the URL, the page loads to the definition of that word.
+3) The %27 disappears after searched.
+4) TErm cannot be found.
